@@ -1,0 +1,782 @@
+html, body,
+ul, ol, li,table,tr,td,th
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+  color: rgb(11, 22, 85);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+}
+.first-test{
+  font-size: 3px;
+  text-align: center;
+}
+/* headerはここから */
+header{
+  height: min(150px,9vh);
+}
+.header-left p{
+font-weight: bold;
+font-size: min(16px,4vw);
+letter-spacing: min(20px,3vw);
+}
+.header-left{
+  width: min(400px,50vw);
+  padding-left: min(40px,5vw);
+  text-align: center;
+  margin-top: 1vh;
+
+}
+.header-left h1{
+font-size: min(30px,5vw);
+letter-spacing: min(20px,3vw);
+font-weight: 900;
+margin: 0;
+text-shadow: 0px 0px 2px rgb(110, 108, 108);
+}
+.header-left p{
+  text-shadow: 0px 0px 2px rgb(110, 108, 108);
+}
+.container{
+  padding: 0 min(40px,4vw);
+  margin: auto;
+}
+.header-left{
+
+  z-index: 10;
+}
+.drawer{
+  z-index: 50;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.drawer-hamburger{
+  margin-top: min(15px,1vh);
+}
+
+/* headerはここまで */
+
+
+
+
+/* swiperはここから */
+.swiper-wrapper {
+  width: 100%;
+  height: 750px;
+}
+/* 全スライド共通スタイル */
+.swiper-slide {
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  line-height: 250px;
+}
+.swiper-slide img{
+  width: 75%;
+}
+
+/* swiperはここまで */
+
+
+
+/* topはここから */
+.top{
+  background-image: url(./img/IMG_6502.jpg);
+  background-size: cover;
+  height: 800px;
+  width: 100%;
+  margin-bottom: 150px;
+  opacity: 0.6;
+}
+.top-title{
+  text-align: center;
+  padding-top:350px;
+  opacity: 1;
+  font-weight: 900;
+  color: black;
+}
+.top-main-title{
+  font-size: min(42px,4vw);
+  margin-bottom: 10px;
+  letter-spacing: 5px;
+  display: none;
+ text-shadow: 0px 0px 10px #fff;
+}
+.top-sub-title{
+  letter-spacing: 5px;
+  line-height: 2;
+  text-shadow: 2px 2px 10px #fff;
+  font-size: min(16px,4vw);
+  display: none;
+}
+/* topはここまで */
+
+
+
+
+
+/* slideはここから */
+.slide{
+  padding-bottom: 120px;
+}
+
+/* slideはここまで */
+
+
+/* tellはここから */
+.tell-top{
+  padding-left: 150px;
+  padding-right: 30px;
+}
+/* tellはここまで */
+
+
+
+
+/* youtubeはここから */
+.youtube-test{
+  text-align: center;
+  padding: 50px 0 150px 0;
+}
+.youtube-title{
+  text-align: center;
+  font-size: 24px;
+
+}
+.youtube-test {
+  width: 100%;
+}
+
+/* youtubeはここまで */
+
+
+
+/* topはここまで */
+
+
+
+
+/* aboutはここから */
+.about{
+  background: rgb(250, 219, 224);
+  padding-bottom: 59px;
+}
+.about-title{
+  text-align: center;
+  font-size:24px;
+  padding: 50px 0;
+  letter-spacing: px;
+  color: rgb(11, 22, 85);
+  font-weight: bold;
+}
+.about-top{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+
+
+
+.about-nene{
+  padding: 10px 30px;
+  width: min(450px,80vw);
+  height: min(550px,100vw);
+
+}
+.nene-pic img{
+  width :100%; 
+  height :auto;
+}
+.beru-pic img{
+  width :100%; 
+  height :auto;
+}
+.about-beru{
+  padding: 10px 30px;
+  width: min(450px,80vw);
+  height: min(550px,100vw);
+}
+.about-nene h3{
+  font-size: 24px;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.about-beru h3{
+  font-size: 24px;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.about-text{
+  font-size: min(16px,3vw);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+/* aboutはここまで */
+
+
+
+
+
+
+
+/* priceはここからじゃ */
+.price{
+  padding: 120px 0;
+  text-align: center;
+}
+.price-top{
+  width: min(1000px,80vw);
+  margin: auto;
+  background:  rgb(250, 219, 224);
+}
+.price-title{
+  padding: 20px 0;
+  font-size: 18px;
+  border-bottom: 1px solid #ffffff;
+}
+.price-title p{
+  font-size: 18px;
+}
+.style-bold{
+  font-size: 23px;
+}
+.price-flex{
+  display: flex;
+  font-size: min(13px,1vw);
+}
+.small{
+  font-size: 10px;
+}
+.price-left{
+  width: 50%;
+  border-right: 1px solid #ffff;
+  text-align:left;
+  padding: 15px 50px 15px 65px;
+  line-height: 2;
+}
+.price-right{
+  width: 50%;
+
+  text-align:left;
+  padding: 15px 50px 15px 65px;
+  line-height: 2;
+}
+.price-left th{
+padding-right: 10px;
+}
+.price-right th{
+padding-right: 10px;
+}
+.material-icons{
+  width: 20px;
+  height: 20px;
+}
+/* priceはここまでじゃ */
+
+
+
+
+
+
+
+
+/* timeはここから */
+.time{
+margin-bottom: 90px;
+}
+.time-top{
+  width: min(1000px,80vw);
+  margin: auto;
+  border:1px solid rgb(250, 219, 224);
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.time-left{
+  width: 45%;
+}
+.time-right{
+  width: 45%;
+}
+.schedule{
+  display: flex;
+  justify-content: space-around;
+  font-size: 18px;
+}
+.foo{
+  font-size: 18px;
+  padding: 18px 24px;
+  border-radius:8px;
+  background: rgb(250, 219, 224);
+  display: inline-block;
+}
+.icon-morning{
+  display: inline-block;
+  margin-right: 20px;
+  background: rgb(250, 219, 224);
+  padding: 18px 24px;
+  border-radius:8px;
+}
+.icon-night{
+  display: inline-block;
+  background: rgb(250, 219, 224);
+  padding: 18px 24px;
+  border-radius:8px;
+}
+.long-text{
+  font-size: 13px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 2px;
+}
+
+.mesino img{
+height: auto;
+width: 100%;
+}
+.iino img{
+height: auto;
+width:100%;
+}
+/* timeはここまで */
+
+
+
+
+
+
+
+
+/* pleaseはここから */
+.please{
+  text-align: center;
+  padding: 20px 0;
+}
+.please-top{
+  display: flex;
+  justify-content: space-between;
+}
+.please-card{
+  background: rgb(250, 219, 224);
+  font-size: 14px;
+  margin-right: min(20px,5vw);
+  border-radius: 8px;
+  width: 30%;
+}
+.please-card:last-child{
+
+  margin-right: 0;
+}
+.please-img{
+ padding: 40px;
+}
+.please-title{
+  padding: 50px 0;
+}
+
+.bigger{
+  width: 120px;
+  height: 120px;
+  font-size: 70px;
+  padding-top: 30px;
+  margin-bottom: 24px;
+  margin-top: 20px;
+  border-radius: 50%;
+
+}
+/* pleaseはここまで */
+
+
+
+
+
+/* accessはここから */
+.access{
+  padding: 30px 0;
+}
+
+.access-title{
+  text-align: center;
+  padding: 30px 0;
+  font-size: 24px;
+}
+.access-left {
+  position: relative;
+  width: 100%;
+  padding-top: 75%; /* = height ÷ width × 100 */
+}
+.access-left iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.access-right{
+  text-align: center;
+  padding: 50px;
+  padding-bottom: 0px;
+}
+.access-right h3{
+  font-size: 24px;
+  line-height: 2.5;
+  text-align: center;
+}
+.access-right p{
+  font-size:14px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.search{
+  width: 30px;
+  height: 30px;
+}
+
+/* accessはここまで */
+
+
+
+
+
+
+
+
+/* footeはここから */
+footer{
+  background: rgb(250, 219, 224);
+  height: 65px;
+}
+footer h1,p{
+  margin: 0;
+  padding: 0;
+}
+.footer-top{
+  text-align: center;
+  padding-top: 35px;
+}
+.footer-top h1{
+  font-size: 13px;
+  letter-spacing: 10px;
+
+}
+.footer-top p{
+font-size: 10px;
+letter-spacing: 10px;
+
+}
+/* footeはここまで */
+
+
+
+
+
+/* タブレット向けレイアウト */
+@media all and (max-width: 1100px) {
+  .top{
+    height: 450px;
+    margin-bottom: 100px;
+  }
+  .about{
+    padding-bottom: 80px;
+  }
+  .about-top{
+    display: block;
+
+  }
+  .about-nene{
+    margin: auto;
+  }
+  .about-beru{
+    margin: auto;
+  }
+  .about-beru{
+    margin-top: 50px;
+  }
+  .please-card{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .top-title{
+    padding-top:150px;
+  }
+  .please-top{
+    display: block;
+
+  }
+}
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  .top{
+    height: 250px;
+    margin-bottom: 50px;
+  }
+  .about{
+    padding-bottom: 40px;
+  }
+
+  .about-beru{
+    margin-top: 20px;
+  }
+  .nene-pic img{
+  width: 100%;
+  margin: auto;
+  }
+  .about-beru{
+    padding: 10px 20px;
+  }
+  .about-nene{
+    padding: 10px 20px;
+  }
+
+  .about-nene h3{
+    padding-bottom: 20px;
+  }
+  .about-beru h3{
+    padding-bottom: 20px;
+  }
+
+
+
+
+
+
+.price{
+  padding: 60px 0;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+.price-top{
+  width: 100%;
+  margin: auto;
+  background:  rgb(250, 219, 224);
+}
+.price-title{
+  padding: 20px 0;
+  font-size: 18px;
+ 
+
+}
+.price-flex{
+  display: block;
+  font-size: 14px;
+}
+.small{
+  font-size: 10px;
+}
+.price-left{
+  width: 100%;
+  margin: auto;
+  border-right: none;
+  text-align:center;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 12px;
+
+}
+.material-icons{
+  margin: auto;
+  padding: 10px 0;
+}
+.price-left {
+  padding: 0;
+  border-bottom:none;
+}
+.price-left tr{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+.price-left td{
+
+  text-align: center;
+  padding: 10px 0;
+  display: inline;
+}
+.price-left td{
+  display: block;
+}
+.border{
+
+}
+.price-special{
+  padding: 0;
+}
+
+
+
+
+
+table{
+  width: 100%;
+}
+.price-right{
+  width: 100%;
+  margin: auto;
+  border-right: none;
+  text-align:center;
+  padding: 0;
+  line-height: 0;
+  font-size: 12px;
+
+}
+
+.price-right tr{
+  display: flex;
+  flex-direction: column;
+}
+.price-right td{
+
+  text-align: center;
+  padding: 10px 0;
+  display: inline;
+}
+.price-right td{
+  display: block;
+}
+
+
+.price-left tr{
+  border-bottom: 1px solid #fff;
+  }
+
+.price-left{
+  border-right: none;
+}
+.margin1{
+  margin-top: 30px;
+}
+.margin2{
+  padding-bottom: 30px;
+}
+
+
+.price-left th{
+  padding-right: 0;
+  }
+  .price-right th{
+  padding-right: 0;
+  }
+
+
+
+
+
+
+
+  .time-top{
+    display: block;
+  }
+  .time-left{
+    width: 100%;
+  }
+  .time-right{
+    width: 100%;
+  }
+
+
+  .please-card{
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .please-top{
+    display: block;
+
+  }
+  .please-img{
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+.bigger{
+  width: 55px;
+  height: 50px;
+  font-size: 40px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.header-left p{
+  margin-top: 30px;
+}
+.swiper-slide img{
+  width: 100%;
+  height: auto;
+}
+.swiper-wrapper {
+  width: 100%;
+  height: 250px;
+}
+.swiper-slide img{
+  width: 100%;
+}
+.youtube-test iframe{
+  width: 100%;
+  height: 200px;
+}
+
+.top-title{
+  text-align: center;
+  padding-top:100px;
+  opacity: 1;
+  font-weight: 900;
+  color: black;
+}
+.top-main-title{
+  font-size:22px;
+  letter-spacing: 0;
+ display: inline-block;
+ text-shadow: 0px 0px 10px #fff;
+ margin-top: 20px;
+ display: none;
+}
+.top-sub-title{
+  letter-spacing: 0px;
+  line-height: 2;
+  text-shadow: 2px 2px 10px #fff;
+  font-size:10px;
+}
+
+
+.youtube-test{
+  text-align: center;
+  padding: 20px 0 50px 0;
+}
+.slide{
+  padding-bottom: 50px;
+}
+.about-title{
+  padding: 25px 0;
+}
+.please-title{
+  padding: 20px;
+}
+}

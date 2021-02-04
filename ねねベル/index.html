@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>catcafeねねベル小坂店</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.7/css/swiper.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
+  <!-- jquery & iScroll -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
+  <!-- drawer.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
+  <link rel="stylesheet" href="animate.css">
+</head>
+<body>
+  <p class="first-test">これは架空のcafeサイトです</p>
+<header id="pegetop">
+  <div class="header-left wow lightSpeedIn">
+    <p>CAT CAFE</p>
+    <h1>ねねベル</h1>
+  </div>
+  <div class="header-right">
+
+    <div class="drawer drawer--right">
+      <section role="banner">
+        <!-- ハンバーガーボタン -->
+        <button type="button" class="drawer-toggle drawer-hamburger">
+          <span class="sr-only">toggle navigation</span>
+          <span class="drawer-hamburger-icon"></span>
+        </button>
+        <!-- ナビゲーションの中身 -->
+        <nav class="drawer-nav" role="navigation">
+          <ul class="drawer-menu">
+            <li><a class="drawer-brand" href="#">Menu</a></li>
+            <li><a class="drawer-menu-item" href="#pegetop">TOPページ</a></li>
+            <li><a class="drawer-menu-item" href="#about">ネコちゃん紹介</a></li>
+            <li><a class="drawer-menu-item" href="#price">お店情報</a></li>
+            <li><a class="drawer-menu-item" href="#time">時間割り</a></li>
+            <li><a class="drawer-menu-item" href="#please">お店からのお願い</a></li>
+            <li><a class="drawer-menu-item" href="#access">アクセス情報</a></li>         
+          </ul>
+        </nav>
+      </section>
+      <main role="main">
+        <!-- Page content -->
+      </main>
+
+      <!-- ドロワーメニューの利用宣言 -->
+      <script>
+        jQuery.noConflict();
+        (function ($) {
+          
+          $(document).ready(function () {
+            $('.drawer').drawer();
+          });
+        })(jQuery);
+        </script>
+    </div>
+  </div>
+</header>
+
+
+<section class="top">
+  <div class="container">
+    <div class="top-title">
+      <h2 class="top-main-title">CAT CAFE ねねベル 小坂店</h2>
+      <p class="top-sub-title">松山市小坂にある猫カフェです。</p>
+      <p class="top-sub-title">２匹の可愛いネコさんたちと一緒に遊ぶことができます</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="slide">
+  <!-- Swiper START -->
+  <div class="swiper-container">
+    <!-- メイン表示部分 -->
+    <div class="swiper-wrapper">
+      <!-- 各スライド -->
+      <div class="swiper-slide"><img src="./img/IMG_6499.jpg" alt="猫の写真です"></div>
+      <div class="swiper-slide"><img src="./img/ねね/IMG_6508.jpg" alt="猫の写真です"></div>
+      <div class="swiper-slide"><img src="./img/IMG_6501.jpg" alt="猫の写真です"></div>
+      <div class="swiper-slide"><img src="./img/ベル/IMG_6500.jpg" alt="猫の写真です"></div>
+      <div class="swiper-slide"><img src="./img/ねね/IMG_6509.jpg" alt="猫の写真です"></div>
+      <div class="swiper-slide"><img src="./img/ベル/IMG_6498.jpg" alt="猫の写真です"></div>
+      <div class="swiper-slide"><img src="./img/ねね/IMG_6507.jpg" alt="猫の写真です"></div>
+      <div class="swiper-slide"><img src="./img/ベル/IMG_6497.jpg" alt="猫の写真です"></div>
+
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  <!-- Swiper END -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.3.7/js/swiper.min.js"></script>
+  <!-- jQueryのライブラリー本体を読み込む -->
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  <!-- 必ずjQuery本体を読み込んだ後にjQueryで書いたファイルを読み込む-->
+  <script src="js/main.js"></script>
+</section>
+
+
+
+
+
+
+<section class="youtube">
+  <div class="container">
+    <h2 class="youtube-title wow lightSpeedIn">
+      店舗紹介MOVIE
+    </h2>
+    <div class="youtube-test">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/QRsfVeEuWhg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+
+<section class="about" id="about">
+  <div class="container">
+    <h2 class="about-title wow lightSpeedIn">
+      ネコちゃん紹介
+    </h2>
+    <div class="about-top">
+      <div class="about-nene">
+        <h3 class="wow fadeInUp">ねねちゃん</h3>
+        <div class="nene-pic">
+          <img src="./img/ねね/IMG_6510.jpg" alt="猫の写真です" class="wow fadeInUp">
+        </div>
+        <p class="about-text">おんなのこ</p>
+        <p class="about-text">11才</p>
+        <p class="about-text">すごい人見知り</p>
+        <p class="about-text">顔はスーパーモデル並みに可愛い</p>
+      </div>
+      <div class="about-beru">
+        <h3 class="wow fadeInUp">ベルちゃん</h3>
+        <div class="beru-pic">
+          <img src="./img/ベル/IMG_6496.jpg" alt="猫の写真です" class="wow fadeInUp">
+        </div>
+        <p class="about-text">おんなのこ</p>
+        <p class="about-text">1才</p>
+        <p class="about-text">人懐っこい</p>
+        <p class="about-text">お姉ちゃんと遊びたいけど遊んでもらえない</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="price" id="price">
+  <div class="container price-special">
+    <div class="price-top">
+      <h2 class="price-title wow lightSpeedIn">
+        <p>CAT CAFE <span class="style-bold">ねねベル</span> 小坂店</p>
+      </h2>
+      <div class="price-flex">
+        <div class="price-left">
+          <table>
+            <tr>
+              <th class="material-icons">directions_walk</th>
+              <td>いよてつ立花駅から徒歩５分</td>
+            </tr>
+            <tr>
+              <th class="material-icons">schedule</th>
+              <td>10:00 - 22:00 /<span class="small">最終入店 21:30</span> 年中無休</td>
+            </tr>
+            <tr>
+              <th class="material-icons">call</th>
+              <td>080-××××-××××</td>
+            </tr>
+            <tr>
+              <th class="material-icons">block</th>
+              <td>6歳から入店可能です<br>※6歳以上12歳以下の方は保護者同伴が必要となります
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="price-right">
+          <table>
+            <tr>
+              <th class="material-icons">payment</th>
+              <td> 料金 200円/10分</td>
+            </tr>
+            <tr>
+              <th></th>
+              <td>・最大料金</td>
+            </tr>
+            <tr>
+              <th></th>
+              <td>一般2400円</td>
+            </tr>
+            <tr class="margin1">
+              <th></th>
+              <td>学生料金(高校生まで) 1200円※平日のみ</td>
+            </tr>
+            <tr>
+              <th></th>
+              <td>ドリンクバー代 350円別途頂戴いたします。</td>
+            </tr>
+            <tr class="margin2">
+              <th></th>
+              <td>※金額は税抜表記です</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- timeはここから -->
+<section class="time" id="time">
+    <div class="time-top">
+      <div class="time-left">
+        <h1 class="wow lightSpeedIn">ご飯タイム</h1>
+        <div class="schedule">
+          <div class="icon-morning  wow flipInX">
+            <p>10:30</p>
+          </div>
+          <div class="icon-night  wow flipInX">
+            <p>19:30</p>
+          </div>
+        </div>
+        <p class="long-text">1日2回の、ごはんタイム。2匹が一列に並んで、元気良く夢中でモグモグしています。よそ見ばかりで食べるのが遅いベルちゃん、最後までがんばって一生懸命食べてるねねちゃん。食いしん坊のベルちゃんは、たまにお隣のごはんにお邪魔したり。
+          ぜひ、とっても楽しくかわいい時間を見に来てください。</p>
+          <div class="mesino">
+            <img src="./img/IMG_6503.jpg" alt="おやつを食べている写真です" class="wow fadeInUp">
+          </div>
+      </div>
+      <div class="time-right">
+        <h1 class="wow lightSpeedIn">猫のおやつ</h1>
+        <div class="foo  wow flipInX">
+          <div class="icon-candy">
+            <p>500円</p>
+          </div>
+        </div>
+       <p class="long-text">空いている時間に２匹におやつをあげるのですが、２匹のおやつの好みが全く違うから困っちゃう。ねねちゃんはおやつ全般食べてくれるけれどベルちゃんは全く食べない。それなのに落ちているゴミを食べようとしたり、ホコリを食べようとしたりい、、、笑</p>
+        <div class="iino">
+          <img src="./img/IMG_6503.jpg" alt="おやつの写真です" class="wow fadeInUp">
+        </div>
+      </div>
+    </div>
+</section>
+<!-- timeはここまで -->
+
+
+
+<!-- pleaseはここから -->
+<section class="please" id="please">
+  <div class="container">
+    <h2  class="please-title wow lightSpeedIn">お店からのお願い</h2>
+    <div class="please-top">
+      <div class="please-card">
+        <div class="please-img">
+          <span class="material-icons bigger wow flipInX">
+            videocam_off
+            </span>
+          <p class="wow flipInX">猫ちゃんを撮影するときはフラッシュをOFFにしてください。</p>
+        </div>
+      </div>
+      <div class="please-card">
+        <div class="please-img">
+          <span class="material-icons bigger wow flipInX">
+            no_food
+            </span>
+          <p class="wow flipInX">猫ちゃんに食べ物や飲み物を与えないでください ※食べ物持込禁止（飲み物は持込可能）</p>
+        </div>
+      </div>
+      <div class="please-card">
+        <div class="please-img">
+          <span class="material-icons bigger wow flipInX">
+            pets
+            </span>
+          <p class="wow flipInX">猫ちゃんを追いかけたり、無理やり触ったりはしないでください。</p>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+</section>
+
+
+
+
+<!-- pleaseはここまで -->
+
+
+
+
+
+
+
+
+
+<!-- accessはここから -->
+<section class="access" id="access">
+  <div class="container">
+    <h2 class="access-title wow lightSpeedIn">アクセス情報</h2>
+    <div class="access-top">
+      <div class="access-left">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.4113510728307!2d132.77130525074966!3d33.82750088057288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x354fe5f62b8ad4c3%3A0xcf62418dca9e94c7!2z44GE44KI56uL6Iqx6aeF!5e0!3m2!1sja!2sjp!4v1601852184198!5m2!1sja!2sjp" width="800" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+      <div class="access-right" id="住所">
+        <h3 class="wow lightSpeedIn">
+          <span class="material-icons search wow lightSpeedIn">
+            home
+            </span>
+            住所
+        </h3>
+        <p class="wow flipInX">愛媛県松山市小坂○○-○○ 2F
+          （1Fが文房具屋さんのビルの2Fです）</p>
+        <p class="wow flipInX">いよてつ立花駅から徒歩５分</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- accessはここまで -->
+
+
+
+<footer>
+  <div class="container">
+    <div class="footer-top">
+      <p>CAT CAFE</p>
+      <h1>ねねベル</h1>
+    </div>
+  </div>
+</footer>
+
+
+
+
+<script src="wow.min.js"></script>
+<script>
+new WOW().init();
+</script>
+
+</body>
+</html>
